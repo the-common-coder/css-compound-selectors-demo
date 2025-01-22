@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Selectors Demo</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <h1>CSS Compound Selectors Demo</h1>
+
+    <main>
+      <!-- Attribute Selector Demo -->
+      <section>
+        <h2>Compound Selectors</h2>
+        <p>
+          This is a demo for compound CSS selectors. Compound selectors combine
+          multiple simple selectors—such as element types, classes, IDs, and
+          attributes—into a single rule to precisely target specific elements on
+          a webpage. For example, the selector
+          <code>button.primary</code> applies styles only to
+          <code>&lt;button&gt;</code> elements with the class
+          <code>primary</code>, while
+          <code>input[type="text"].form-control</code> targets text input fields
+          with the class <code>form-control</code>. Use cases include styling
+          specific components, like a
+          <span class="highlight">highlighted piece of text</span>, or applying
+          consistent styles to elements with shared attributes and classes,
+          making your CSS cleaner and more efficient.
+        </p>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" placeholder="Enter your name" />
+
+          <label for="email">Email:</label>
+          <input type="text" id="email" placeholder="Enter your email" />
+
+          <label for="subscribe">Subscribe to our newsletter:</label>
+          <input type="checkbox" id="subscribe" />
+
+          <div class="mt-1">
+            <button type="submit" name="submit" id="submit" class="btn">
+              Submit
+            </button>
+            <button type="reset" name="reset" id="reset" class="btn">
+              Reset
+            </button>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
