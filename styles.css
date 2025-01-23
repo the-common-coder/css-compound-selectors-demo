@@ -113,12 +113,12 @@ button.btn {
 }
 
 /* Compound Selectors (Combining CSS Styles) */
-.btn.primary {
+button.btn.primary, a.btn.primary {
   background-color: dodgerblue;
-  color: #fff;
+  color: white;
 }
 
-.btn.danger {
+button.btn.danger, a.btn.danger {
   background-color: red;
   color: white;
 }
