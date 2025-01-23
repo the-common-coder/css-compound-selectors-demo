@@ -80,7 +80,6 @@ code {
 /* Compound Selectors (Styling Specific Elements) */
 span.highlight {
   padding: 0.25rem;
-  font-size: 1.25rem;
 }
 
 button[disabled] {
@@ -113,12 +112,14 @@ button.btn {
 }
 
 /* Compound Selectors (Combining CSS Styles) */
-button.btn.primary, a.btn.primary {
+button.btn.primary,
+a.btn.primary {
   background-color: dodgerblue;
   color: white;
 }
 
-button.btn.danger, a.btn.danger {
+button.btn.danger,
+a.btn.danger {
   background-color: red;
   color: white;
 }
